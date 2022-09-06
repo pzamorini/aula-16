@@ -98,3 +98,23 @@ main {
     left: 210px;
     position: absolute;
 }
+
+.card {
+    width: 300px;
+    height: 529px;
+    position: relative;
+
+}
+
+.batman {
+    background-image: url(/img/bg-batman.png);
+}
+
+.alerquina {
+    background-image: url(/img/bg-arlequina.png);
+}
+
+.hero-img {
+    border-radius: 50%;
+    position: absolute;
+}
