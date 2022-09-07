@@ -83,6 +83,12 @@ main button{
     font-size: 24px;
     line-height: 44px;
     margin-top: 20px;
+
+}
+
+#button-sign-in{
+    text-decoration: none;
+    color: #222222;
 }
 
 main h3{

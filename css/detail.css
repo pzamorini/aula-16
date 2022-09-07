@@ -90,6 +90,11 @@ button{
     border: none;
     border-radius: 0 0rem 1.5rem 1.5rem;
     background: #2C0187;
+    
+}
+
+#button-home{
+    text-decoration: none;
     color: #ffffff;
 }
 
