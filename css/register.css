@@ -95,8 +95,13 @@ main form {
 
 .fake .segundo { 
     background-color: #1CD1B0; 
-    color: #000000;
+    
 
+}
+
+.fake a { 
+    text-decoration: none;
+    color: #000000;
 }
 
 
