@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    height: 100vh;
+}
+
 .bar-top{
     height: 1.5rem;
     background: #1CD1B0;
@@ -24,6 +28,7 @@
 
 .main-section{
     background-image: url(/aula-16/img/bg-detail.png);
+    background-size: cover;
     height: 43.22rem;
     width: 100vw;
     display: flex;
