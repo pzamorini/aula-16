@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bar-top{
+    height: 1.5rem;
+    background: #1CD1B0;
+}
+
+.bar-bottom{
+    height: 3.70rem;
+    background: #00669f;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 3.8rem;
+}
+
+.bar-bottom h1{
+    margin-left: 0.8rem;
+}
+
+.main-section{
+    background-image: url(/aula-16/img/bg-detail.png);
+    height: 43.22rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 20.22rem;
+    width: 33.33rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+    background: #F3F3F3;
+}
+
+.imgs{
+    position: relative;
+}
+
+
+
+#arlequina{
+    border-radius: 5rem;
+    position: absolute;
+    bottom: 8rem;
+    right: -21rem;
+}
+
+#icon-heart{
+    position: absolute;
+    right: -4rem;
+    bottom: 6rem;
+}
+
+.txt-card{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.txt-card h2{
+    color: #2C0187;
+    margin: 0.6rem 0 0.6rem 0;
+}
+
+.highlighted-txt{
+    color: #2C0187;
+}
+
+.icons-txt{
+    margin-top: 1rem;
+}
+
+button{
+    width: 33.33rem;
+    height: 5rem;
+    border: none;
+    border-radius: 0 0rem 1.5rem 1.5rem;
+    background: #2C0187;
+    color: #ffffff;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00669f;
+    color: #FFF9F9;
+    height: 3.4rem;
+    line-height: 1rem;
+}
