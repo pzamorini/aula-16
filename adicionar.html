@@ -9,6 +9,7 @@
     <link rel="icon" href="">
     <title>Adicionar</title>
 </head>
+
 <body>
     <div class="desconto">
         <p>20% de desconto em todos os produtos!</p>
@@ -26,71 +27,54 @@
             </ul>
         </nav>
     </div>
+    <main class="main-page">
+        <div class="container">
+            <h2>Adicionar seu super-herói</h2>
+            <p>Adicione seu personagem favorito completando as informações</p>
+            <form action="" class="form-page" method="post">
+                <label for="nome" class="title">*Nome</label>
+                <input type="text" class="input-page" name="nome" required id="nome">
+                <label for="nascimento" class="title">Data de Nascimento</label>
+                <input type="date" class="input-page" value="" name="nascimento" id="nascimento" required>
+                <textarea name="description" placeholder="Descrição" id="description" cols="30" rows="10"></textarea>
+                <label for="especie" class="title">*Espécie</label>
+                <select name="especie" class="input-page" id="especie">
+                    <option value="Humano" selected>Humano</option>
+                    <option value="alien">Alien</option>
+                    <option value="Programador">Programador</option>
+                    <option value="Semideus">Semideus</option>
+                </select>
+                <label for="file" class="file-page">Adicionar Foto
+                    <input type="file" class="input-file" id="file" value="file">
+                </label>
 
-    <main>
-        <section class="form-container">
-            <div class="titulo">
-                <h2>Adicionar seu super-herói</h2>
-                <span>Adicione seu personagem favorito completando as informações</span>
-            </div>
-            
-            <div class="form">
-                <form action="/home.html" method="post">
-                    <div class="part-i-form">
-                        <label for="nome">*Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Nome">
-                        
-                        <label for="espécie">*Espécie</label>
-                        <select name="espécie" placeholder="Espécie" id="espécie" placeholder="Espécie">
-                            <option value=""></option>
-                            <option vSalue="humano">Humano</option>
-                            <option value="alien">Alien</option>
-                            <option value="semideus">Semideus</option>
-                            <option value="programador">Programador</option>
-                        </select>
-                        
-                        <label for="data-de-nascimento">Data de Nascimento</label>
-                        <input type="date" name="date" id="data-de-nascimento">
-
-                        <label for="adicionar-foto">Adicionar Foto</label>
-                        <input type="file" name="adicionar-foto" id="adicionar-foto">
-                    </div>
-                
-                    <div>
+                <div>
 
                     <label for="poderes">Poderes</label>
 
                     <label for="voar">
-                    <input type="checkbox" name="voar"> Voar</label>
+                        <input type="checkbox" name="voar"> Voar</label>
 
                     <label for="inteligência">
-                    <input type="checkbox" name="inteligência">Super Inteligência</label>
+                        <input type="checkbox" name="inteligência">Super Inteligência</label>
 
                     <label for="laser">
-                    <input type="checkbox" name="laser">Vista de Raio Laser</label>
+                        <input type="checkbox" name="laser">Vista de Raio Laser</label>
 
                     <label for="rico">
-                    <input type="checkbox" name="rico">Super Rico</label>
+                        <input type="checkbox" name="rico">Super Rico</label>
 
-                    </div>
+                </div>
 
-                        <div>
-                            <textarea name="descrição" placeholder="Descrição" id="descrição" cols="30" rows="10"></textarea>
-
-                        </div>
-                        <div>
-                        
-                        </div>
-                    </div>
-                    
-                    </select>
-            
-            
-                    </form>
-            </div>
-        </section>
-        
+            </form>
+            <div class="button">
+                <button type="submit" class="btn btn-submit">Adicionar</button>
+              </div>
+        </div>
     </main>
-    <footer> Todos os direitos reservados a Front-end I</footer>
+    <footer>
+        <p> Todos os direitos reservados a Front-end I</p>
+    </footer>
 </body>
+
 </html>
