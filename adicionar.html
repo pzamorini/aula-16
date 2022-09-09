@@ -28,25 +28,68 @@
     </div>
 
     <main>
-        <form action="/home.html" method="post">
-        <h2>Adicionar seu super-herói</h2>
-        <p>Adicione seu personagem favorito completando as informaçes</p>
-        <label for="nome">*Nome</label>
-        <input type="text" name="nome" id="nome">
-        <label for="data-de-nascimento">Data de Nascimento</label>
-        <input type="date" name="date" id="data-de-nascimento">
-        <textarea name="descrição" placeholder="Descrição" id="descrição" cols="30" rows="10"></textarea>
-        <label for="espécie">*Espécie</label>
-        <select name="espécie" placeholder="Espécie" id="espécie">
-        <option value=""></option>
-        <option value="humano">Humano</option>
-        <option value="alien">Alien</option>
-        <option value="semideus">Semideus</option>
-        <option value="programador">Programador</option>
-        </select>
+        <section class="form-container">
+            <div class="titulo">
+                <h2>Adicionar seu super-herói</h2>
+                <span>Adicione seu personagem favorito completando as informações</span>
+            </div>
+            
+            <div class="form">
+                <form action="/home.html" method="post">
+                    <div class="part-i-form">
+                        <label for="nome">*Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+                        
+                        <label for="espécie">*Espécie</label>
+                        <select name="espécie" placeholder="Espécie" id="espécie" placeholder="Espécie">
+                            <option value=""></option>
+                            <option vSalue="humano">Humano</option>
+                            <option value="alien">Alien</option>
+                            <option value="semideus">Semideus</option>
+                            <option value="programador">Programador</option>
+                        </select>
+                        
+                        <label for="data-de-nascimento">Data de Nascimento</label>
+                        <input type="date" name="date" id="data-de-nascimento">
 
+                        <label for="adicionar-foto">Adicionar Foto</label>
+                        <input type="file" name="adicionar-foto" id="adicionar-foto">
+                    </div>
+                
+                    <div>
 
-        </form>
+                    <label for="poderes">Poderes</label>
+
+                    <label for="voar">
+                    <input type="checkbox" name="voar"> Voar</label>
+
+                    <label for="inteligência">
+                    <input type="checkbox" name="inteligência">Super Inteligência</label>
+
+                    <label for="laser">
+                    <input type="checkbox" name="laser">Vista de Raio Laser</label>
+
+                    <label for="rico">
+                    <input type="checkbox" name="rico">Super Rico</label>
+
+                    </div>
+
+                        <div>
+                            <textarea name="descrição" placeholder="Descrição" id="descrição" cols="30" rows="10"></textarea>
+
+                        </div>
+                        <div>
+                        
+                        </div>
+                    </div>
+                    
+                    </select>
+            
+            
+                    </form>
+            </div>
+        </section>
+        
     </main>
 <<<<<<< HEAD
     <footer> Todos os direitos reservados a Front-end I</footer>

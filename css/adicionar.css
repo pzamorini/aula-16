@@ -74,3 +74,48 @@ nav ul {
   margin-left: 20px; 
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  height: 700px;
+  width: 954px;
+  background: #00669F;
+  border-radius: 3rem;
+  padding: 1.1rem 11.1rem 1.1rem 11.1rem;
+}
+
+.titulo{
+  color: #FBFFFD;
+  text-align: center;
+}
+
+.titulo h2 {
+  margin-bottom: 0.8rem;
+}
+
+.form{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  height: 100vh;
+}
+
+.part-i-form{
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+}
+#especie, #nome, #data-de-nascimento{
+  height: 400px;
+  height: 63px;
+  border-radius: 1rem;
+  border: none;  
+}
