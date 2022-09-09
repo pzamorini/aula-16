@@ -24,18 +24,50 @@
     font-size: 30px;
 }
 
-main{
+section{
 
     display: flex;
     align-items: center;
-    height: 450px;
-
-
+    height: 600px;
+    justify-content: center;
  }
 
+ forma h1{
+    font-size: 72px;
+ }
 .inputs{
     display: flex;
     flex-direction: column;
-    height: 150px;
 }
 
+.inputfilho{
+    width: 620px;
+    height: 60px;
+}
+
+#input2{
+    width: 621px;
+    height: 251px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.botao button{
+    width: 300px;
+    height: 53.79px;
+    border-radius: 23.1px;
+    border: 0.1px;
+}
+
+#limpar{
+    background-color: #888888;
+    color: #FFFFFF;
+}
+
+#entrar{
+    background-color: #1CD1B0;
+    color: #FFFFFF;
+}
